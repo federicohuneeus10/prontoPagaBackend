@@ -24,3 +24,8 @@ mrobles 1234 user
 
 AI Usage
 Used Claude to guide the implementation of JWT auth, middleware structure, and deterministic scoring algorithm.
+
+## Notes
+
+- CORS is enabled for `http://localhost:5176` (Vite dev server default port)
+- In production, update the CORS origin to your actual frontend domain
